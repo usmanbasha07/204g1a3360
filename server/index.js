@@ -64,6 +64,7 @@ const filterTrains = (train) => {
     const result = trains.filter(filterTrains).sort(sortTrains);
   
     res.json(result);
+    console.log()
   });
 
 app.get("/", (req, res) => {
